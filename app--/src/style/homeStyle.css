@@ -1,0 +1,79 @@
+/*Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body, html {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0f0f0f;
+  color: #ffffff;
+  height: 100%;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.home-header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.home-subtitle {
+  font-size: 1.25rem;
+  color: #b0b0b0;
+  margin-bottom: 2rem;
+}
+
+/* Description */
+.home-description {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #dddddd;
+  margin-bottom: 3rem;
+}
+
+home-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.primary-btn, .secondary-btn {
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+
+.primary-btn {
+  background: linear-gradient(135deg, #ff6a00, #ee0979);
+  color: white;
+}
+
+.primary-btn:hover {
+  opacity: 0.9;
+   background-color: rgba(255, 106, 0, 0.1);
+  
+}
+
+.secondary-btn {
+  background-color: transparent;
+  border: 2px solid #ff6a00;
+  color: #ff6a00;
+}
+
+.secondary-btn:hover {
+  background-color: rgba(255, 106, 0, 0.1);
+}

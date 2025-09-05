@@ -1,0 +1,121 @@
+.page{
+    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 2rem;
+  min-height: 100vh;
+    
+    
+}
+
+.title h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #d5c1c1;
+}
+
+.dscription {
+  
+  width: 100%;
+  min-width: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  
+}
+
+.dscription textarea {
+  width: 100%;
+  min-height: 200px;
+  padding: 16px;
+  border: 1.5px solid #ddd;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-family: inherit;
+  resize: vertical;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.dscription textarea:focus {
+  border-color: #007bf6;
+  box-shadow: 0 0 0 4px rgba(0, 123, 246, 0.15);
+}
+
+.btn {
+  align-self: flex-end;
+  padding: 12px 24px;
+  background: #007bf6;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+  background: #005fcc;
+  transform: translateY(-2px);
+}
+
+.btn:active {
+  background: #004aa3;
+  transform: translateY(-1);
+}
+
+.popup-card {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  background: #581b1b; /* Light card background */
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+  z-index: 1000;
+  max-width: 450px;
+  width: 90%;
+  animation: fadeIn 0.3s ease-out;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.popup-card h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #222;
+  text-align: center;
+}
+
+.popup-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.popup-card li:hover {
+ transform: scale(1.07);    /* small zoom effect */
+}
+
+
+
+
+
+.close-btn {
+  
+  
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #666;
+  transition: color 0.2s ease;
+}
+
+.popup-card .close-btn:hover {
+  color: #ffffff;
+}
