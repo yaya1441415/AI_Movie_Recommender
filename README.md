@@ -60,3 +60,9 @@ The system recommends movies based on **user prompts and semantic similarity (Se
     - Support for multiple recommendation strategies (collaborative     filtering + content-based).
     - Deploy to Docker + cloud hosting.
     - Expand dataset with real-time movie metadata APIs.
+
+- ***How To Run:***
+  - Get DataSet and put it in Backend repo, Link : https://drive.google.com/file/d/1bXtcnbh7l44RzFOWubQqyWvU3GljwlOb/view?usp=sharing
+  - Cd Backend => python server.py
+  - cd app- => npm run dev
+  
